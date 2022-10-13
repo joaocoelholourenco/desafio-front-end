@@ -6,7 +6,7 @@
       "img_url": "https://xesque.rocketseat.dev/users/avatar/profile-22f79485-52e5-452f-9b31-f4db300e629a-1628853721414.jpg",
       "role": "Front-end",
       "date_hire": "2022-10-11T18:25:43.511Z",
-      "phone": "61999999999"
+      "phone": "61123456789"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "img_url": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
       "role": "Front-end",
       "date_hire": "2012-04-25T18:25:43.511Z",
-      "phone": "61999999999"
+      "phone": "611234567890"
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "img_url": "https://xesque.rocketseat.dev/users/avatar/profile-22f79485-52e5-452f-9b31-f4db300e629a-1628853721414.jpg",
       "role": "Back-end",
       "date_hire": "2012-04-24T18:25:43.511Z",
-      "phone": "61999999999"
+      "phone": "123456789"
     },
     {
       "id": 5,
@@ -38,7 +38,7 @@
       "img_url": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png",
       "role": "Fullstack",
       "date_hire": "2012-04-29T18:25:43.511Z",
-      "phone": "61999999999"
+      "phone": "12345678"
     }
   ]
 }
