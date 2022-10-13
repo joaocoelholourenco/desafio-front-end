@@ -3,11 +3,23 @@ import styles from "styled-components";
 export const Input = styles.div`
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+
+    padding: 0 1rem;
 
     height: 3rem;
     width: 18rem;
     
+    @media screen and (max-width: 550px){
+      width: 100%;
+    }
+
+    span{
+      position: absolute;
+      color: red;
+      margin: 75px 0 0 -15px;
+    }
+
     background: var(--white);
     
     border-radius: 4px;
@@ -15,19 +27,21 @@ export const Input = styles.div`
     
     input{
       border: none;
+      width: 100%;
 
       :focus{
         box-shadow: 0 0 0 0;
         border: 0 none;
         outline: 0;
       }
+      
       ::placeholder{
         color: var(--gray-20);
       }
     }
 `;
 
-export const SearcButton = styles.button`
+export const SearchButton = styles.button`
   display: flex;
   align-items:center;    
   justify-content:center;    
