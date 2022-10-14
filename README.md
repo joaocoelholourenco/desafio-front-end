@@ -23,7 +23,7 @@ $ cd desafio-front-end
 # Instale as dependências
 $ yarn
 
-# Primeiro vamos iniciar o json server
+# Primeiro inicie o json server
 $ yarn json-server --watch server.json
 
 # Execute a aplicação em modo de desenvolvimento
@@ -41,7 +41,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 #### **Front-end** ([React](https://reactjs.org/) + [TypeScript](https://www.typescriptlang.org/))
 
-- \*\*[Vite](https://vitejs.dev/guide/)
+- **[Vite](https://vitejs.dev/guide/)**
 - **[React Icons](https://react-icons.github.io/react-icons/)**
 - **[Axios](https://github.com/axios/axios)**
 - **[Styled Components](https://styled-components.com/docs)**
