@@ -24,7 +24,7 @@ $ cd desafio-front-end
 $ yarn
 
 # Primeiro inicie o json server
-$ yarn json-server --watch server.json
+$ json-server --watch server.json
 
 # Execute a aplicação em modo de desenvolvimento
 $ yarn dev
