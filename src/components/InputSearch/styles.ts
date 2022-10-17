@@ -41,21 +41,9 @@ export const Input = styles.div`
     }
 `;
 
-export const SearchButton = styles.button`
+export const IconContainer = styles.div`
   display: flex;
   align-items:center;    
   justify-content:center;    
   color: var(--gray-10);
-
-  border: none;
-  border-radius: 0.25rem;
-  padding: 0.3rem;
-  background: transparent;
-  
-  
-  :hover{
-    cursor: pointer;
-    background: var(--gray-10);
-    color: var(--gray-20);
-  }
 `;

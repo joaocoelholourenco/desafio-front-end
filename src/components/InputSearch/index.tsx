@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { BiSearchAlt2 } from "react-icons/bi";
 import { useUsersContext } from "../../contexts/UsersContext";
 import { match } from "../../utils/MatchSearch";
-import { Input, SearchButton } from "./styles";
+import { Input, IconContainer } from "./styles";
 
 export const InputSearch = () => {
   const [notFound, setNotFound] = useState(false);
@@ -26,7 +26,7 @@ export const InputSearch = () => {
     }
   }
 
-  const handleSearchWithDebounce = debounce((search) => search(search), 300);
+  const handleSearchWithDebounce = debounce((value) => search(value), 300);
 
   return (
     <Input>
@@ -35,9 +35,9 @@ export const InputSearch = () => {
         placeholder="Pesquisar"
         onChange={(e) => handleSearchWithDebounce(e.currentTarget.value)}
       />
-      <SearchButton onClick={() => setUsers([])}>
+      <IconContainer>
         <BiSearchAlt2 size={"24px"} />
-      </SearchButton>
+      </IconContainer>
       {notFound && <span>Nenhum funcionário encontrado.</span>}
     </Input>
   );
